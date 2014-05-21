@@ -1,0 +1,201 @@
+            article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
+                display: block;
+            }
+            body {
+                background: #E6E6E6;
+                margin: 0px 0px 0px 0px;
+                padding: 0px 0px 0px 0px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 9pt;
+                margin-top: 20px;
+                color: #232431;
+            }
+            
+            h1 {
+                background: url(img/ui-header-degree.png);
+                background-repeat: no-repeat;
+                font-size: 14pt;
+                padding: 10px 0px 10px 0px;
+            }
+            #contenido {
+                width: 900px;
+                margin: 0px auto 0px auto;
+                padding: 0px 0px 0px 0px;
+            }
+            
+            #cuerpo {
+                width: 782px;
+                float: left;
+                margin-top: 20px;
+                margin-left: 8px;
+                
+                padding: 50px;
+                -moz-border-radius: 2px;
+                -moz-border-radius: 2px;
+                -webkit-border-radius: 2px;
+                -webkit-border-radius: 2px;
+                background-color: #FAFAFA;
+                border-radius: 2px;
+                border-radius: 2px;
+                box-shadow: 2px 2px 5px #999;
+                -webkit-box-shadow: 2px 2px 5px #999;
+                -moz-box-shadow: 2px 2px 5px #999;
+                behavior: url(js/PIE/PIE.php);
+                /*filter: shadow(color=#999999,direction=135,strength=2);*/
+            }
+            header {
+                margin: 0px;
+                padding: 0px;
+            }
+            nav {
+                margin: 0px;
+                padding: 0px;   
+            }
+            div.menu-principal {
+                float: left;
+                clear: both;
+                list-style: none;
+                width: 896px;
+                height: 60px;
+
+                padding: 0px 2px 0px 2px;
+                margin: 0px auto 0px auto;
+                
+                
+                
+                margin: 0px;
+                
+                margin-top: 30px;
+                
+                
+            }
+            ul.menu-principal {
+                float: left;
+                position: relative;
+                left: 50%;
+                list-style: none;
+                height: 60px;
+                margin: 0px;
+                padding: 0px;
+                
+            }
+            
+            ul.menu-principal li {
+                background: url(img/ui-menu-degree.png);
+                color: #F2F2F2;
+                float: left;
+                width: 136px;
+                position: relative;
+                right: 50%;
+                list-style: none;
+                padding-top: 20px;
+                padding-left: 20px;
+                padding-right: 20px;
+                height: 40px;
+                border-left: 1px solid #848484;
+                border-right: 1px solid #424242;
+                font-size: 11pt;
+                text-align: center;
+                box-shadow: 2px 2px 5px #999;
+                -webkit-box-shadow: 2px 2px 5px #999;
+                -moz-box-shadow: 2px 2px 5px #999;
+                behavior: url(js/PIE/PIE.php);
+                
+            }
+            
+            
+            ul.menu-principal li:first-child {
+                border-left: none;
+                border-right: none;
+                -moz-border-radius-topleft: 2px;
+                -moz-border-radius-bottomleft: 2px;
+                    -webkit-border-top-left-radius: 2px;
+                -webkit-border-bottom-left-radius: 2px;
+                
+                border-top-left-radius: 2px;
+                    border-bottom-left-radius: 2px;
+                behavior: url(js/PIE/PIE.php);
+            }
+            
+            ul.menu-principal li:last-child {
+                -moz-border-radius-topright: 2px;
+                -moz-border-radius-bottomright: 2px;
+                    -webkit-border-top-right-radius: 2px;
+                -webkit-border-bottom-right-radius: 2px;
+                
+                border-top-right-radius: 2px;
+                    border-bottom-right-radius: 2px;
+                behavior: url(js/PIE/PIE.php);
+            }
+            
+            ul.menu-principal li:hover {
+                background: url(img/ui-menu-degree-hover.png);
+                cursor: pointer;
+                color: #000;
+            }
+            
+            ul.menu-principal li a {
+                color: #F2F2F2;
+                text-decoration: none;
+            }
+            
+            ul.menu-principal li.selected {
+                color: #F2F2F2;
+            }
+            
+            ul.menu-principal li.selected a {
+                color: #8AA4C7;
+            }
+            
+            ul.menu-principal li a:hover {
+                
+            }
+            
+            ul.menu-principal li a:visited {
+                
+            }
+            
+            ul.menu-principal li a:active {
+                
+            }
+            
+            .text-box {
+                border: 1px solid #E6E6E6;
+                -moz-border-radius: 2px;
+                -moz-border-radius: 2px;
+                -webkit-border-radius: 2px;
+                -webkit-border-radius: 2px;
+                border-radius: 2px;
+                border-radius: 2px;
+                behavior: url(js/PIE/PIE.php);
+            }
+            
+            ul.menu-idioma {
+                float: right;
+                list-style: none;
+                height: 80px;
+                margin-right: 5px;
+            }
+            ul.menu-idioma li{
+                float: left;
+                list-style: none;
+                border-left: 1px solid #000;
+                padding: 5px;
+            }
+            ul.menu-idioma li:first-child{
+                border-left: none;
+            }
+            ul.menu-idioma li a {
+                text-decoration: none;
+                color: #232431;
+            }
+            ul.menu-idioma li a:hover{
+                text-decoration: underline;
+            }
+            ul.menu-idioma li a:active {
+                color:#999999;
+            }
+            ul.menu-idioma li a:visited {
+                text-decoration: none;
+                color: #232431;
+            }
